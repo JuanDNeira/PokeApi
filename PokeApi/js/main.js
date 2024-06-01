@@ -164,7 +164,7 @@ botonesHeader.forEach(boton => boton.addEventListener("click", (event) => {
   listaPokemon.innerHTML = "";
 
   if (botonId === "ver-todos") {
-    setTimeout(mostrarPokemonOrdenados, );
+    setTimeout(mostrarPokemonOrdenados, 7000);
   } else {
     setTimeout(() => {
       pokemonOrdenados.forEach(pokemon => {
@@ -174,7 +174,7 @@ botonesHeader.forEach(boton => boton.addEventListener("click", (event) => {
           listaPokemon.appendChild(pokemon);
         }
       });
-    }, );
+    },);
   }
 }));
 
